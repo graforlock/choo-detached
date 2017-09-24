@@ -1,6 +1,5 @@
 ## choo-detached
-A wrapper around choo API that allows to use choo components without a baked-in routing layer. Edit
-Add topics
+A wrapper around choo API that allows to use choo components without a baked-in routing layer. 
 
 ## Example
 
