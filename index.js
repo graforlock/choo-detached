@@ -16,6 +16,8 @@ function Detached (opts) {
 
     var self = this
     this.router = function () {
+      assert.notEqual(self.handler, null, 'choo: component has no existing component handler')
+
       return self.handler(self.state, function (eventName, data) {
         self.emitter.emit(eventName, data)
       })
@@ -35,4 +37,3 @@ Detached.prototype.component = function (handler) {
 }
 
 module.exports = Detached
-
