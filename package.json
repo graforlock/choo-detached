@@ -18,10 +18,10 @@
   "author": "Maciej Sitko",
   "license": "ISC",
   "dependencies": {
+    "choo": "^6.1.0",
     "assert": "^1.4.1"
   },
   "devDependencies": {
-    "choo": "^6.1.0",
     "dependency-check": "^2.9.1",
     "standard": "^10.0.3",
     "tape": "^4.8.0"
