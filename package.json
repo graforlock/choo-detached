@@ -1,0 +1,22 @@
+{
+  "name": "choo-detached",
+  "version": "1.0.0",
+  "description": "Detached (routerless) choo solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "choo",
+    "detached",
+    "cool",
+    "framework",
+    "js",
+    "spa"
+  ],
+  "author": "Maciej Sitko",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "^6.1.0"
+  }
+}

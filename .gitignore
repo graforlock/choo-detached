@@ -1,0 +1,11 @@
+node_modules/
+coverage/
+.sauce-credentials.json
+sauce_connect.log
+npm-debug.log*
+coverage.json
+.DS_Store
+*.swp
+.zuulrc
+package-lock.json
+yarn.lock
