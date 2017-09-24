@@ -4,9 +4,9 @@ A wrapper around choo API that allows to use choo components without a baked-in 
 ## Example
 
 ```javascript
+var choo = require('choo-detached')
 var html = require('choo-detached/html')
 var log = require('choo-log')
-var choo = require('choo-detached')
 
 var app = choo()
 app.use(log())
