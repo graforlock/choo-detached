@@ -1,6 +1,6 @@
-# choo-detached
+## choo-detached
 
-# Example
+## Example
 
 ```javascript
 var html = require('choo/html')
