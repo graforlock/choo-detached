@@ -1,7 +1,7 @@
 var tape = require('tape')
 
-var html = require('choo/html')
-var raw = require('choo/html/raw')
+var html = require('./html')
+var raw = require('./html/raw')
 var choo = require('./')
 
 tape('should render on the server', function (t) {

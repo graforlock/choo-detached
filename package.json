@@ -4,7 +4,8 @@
   "description": "Detached (routerless) choo solution",
   "main": "index.js",
   "scripts": {
-    "test": "standard && dependency-check ./package.json --entry index.js && node test.js"
+    "deps": "dependency-check ./package.json --entry index.js && dependency-check ./package.json --entry html/index.js",
+    "test": "standard && npm run deps && node test.js"
   },
   "keywords": [
     "choo",
