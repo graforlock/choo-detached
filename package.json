@@ -18,7 +18,7 @@
   "author": "Maciej Sitko",
   "license": "ISC",
   "dependencies": {
-    "choo": "^6.1.0",
+    "choo": "^6.7.0",
     "assert": "^1.4.1"
   },
   "devDependencies": {
