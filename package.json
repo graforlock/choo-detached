@@ -1,6 +1,6 @@
 {
   "name": "choo-detached",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detached (routerless) choo solution",
   "main": "index.js",
   "scripts": {
