@@ -14,7 +14,7 @@ function Detached (opts) {
 
     this.handler = null
 
-    this._matchRoute = this._matchRoute.bind(this, "/")
+    this._matchRoute = this._matchRoute.bind(this, '/')
   }
 }
 
